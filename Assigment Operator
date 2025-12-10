@@ -1,0 +1,28 @@
+// Assigment Operator
+#include <stdio.h>
+int a;
+// int b;
+
+int main()  {
+    printf("Enter the number a : ");
+    scanf("%d", &a);
+    
+    // printf("Enter the number b : ");
+    // scanf("%d", &b);
+    
+    printf("Addition and Assign : %d\n", a+=10 );
+    printf("Subtraction and Assign : %d\n", a-=10);
+    printf("Multiplication and Assign : %d\n", a*=10);
+    printf("Division and Assign : %d\n", a/=10);
+    printf("Modulus and Assign : %d\n", a%=10);
+
+    return 0;
+}
+
+Output:
+Enter the number a : 10
+Addition and Assign : 20
+Subtraction and Assign : 10
+Multiplication and Assign : 100
+Division and Assign : 10
+Modulus and Assign : 0
