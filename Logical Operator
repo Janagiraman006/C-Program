@@ -1,0 +1,27 @@
+// Logical Operator
+#include <stdio.h>
+int a,b,c;
+
+int main()  {
+    printf("Enter the number a : ");
+    scanf("%d", &a);
+    
+    printf("Enter the number b : ");
+    scanf("%d", &b);
+    
+     printf("Enter the number c : ");
+    scanf("%d", &c);
+    
+    printf("AND : %d\n", a>b && a<c);
+    printf("OR : %d\n", a>b || a<c);
+    printf("NOT : %d\n", a>b | c<b);
+    return 0;
+}
+
+Output:
+Enter the number a : 10
+Enter the number b : 20
+Enter the number c : 30
+AND : 0
+OR : 1
+NOT : 0
