@@ -1,0 +1,21 @@
+//program 1 : Add Two Numbers
+#include <stdio.h>
+int a;
+int b;
+int sum;
+int main(){
+  printf("Enter Your Number a : ");
+  scanf("%d",&a);
+
+  printf("Enter Your Number b : ");
+  scanf("%d",&b);
+
+  sum = a+b;
+  printf("Add Two Number is : %d",sum);
+  return 0;
+}
+
+Output :
+Enter Your Number a : 3
+Enter Your Number b : 5
+Add Two Number is : 8
