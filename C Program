@@ -1,0 +1,32 @@
+// Program 
+#include <stdio.h>
+
+int main() {
+    int i=1;
+    int n;
+
+    do{
+        printf("Enter your number: ");
+        scanf("%d",&n);
+        printf("You have entered is:%d \n",n);
+        i++;
+    }
+    while(n!=0);
+    printf("The program is ended");
+    return 0;
+}
+
+Output:
+Enter your number: 5
+You have entered is:5 
+Enter your number: 4
+You have entered is:4 
+Enter your number: 3
+You have entered is:3 
+Enter your number: 2
+You have entered is:2 
+Enter your number: 1
+You have entered is:1 
+Enter your number: 0
+You have entered is:0 
+The program is ended
