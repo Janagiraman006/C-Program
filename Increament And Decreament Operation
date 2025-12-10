@@ -1,0 +1,23 @@
+// Increament And Decreament Operation
+#include <stdio.h>
+int a;
+
+int main()  {
+    printf("Enter the number a : ");
+    scanf("%d", &a);
+    
+    printf("Pre increment operator : %d\n", ++a);
+    printf("Post increment operator : %d\n", a++);
+    printf("Pre Decrement operator : %d\n", --a);
+    printf("Post Decrement operator : %d\n", a--);
+    printf("The Final a Value is :%d\n",a);
+    return 0;
+}
+
+Output:
+Enter the number a : 10
+Pre increment operator : 11
+Post increment operator : 11
+Pre Decrement operator : 11
+Post Decrement operator : 11
+The Final a Value is :10
