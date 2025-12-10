@@ -1,11 +1,11 @@
-// Multiplcation Tables
+// Multiplication Tables
 #include <stdio.h>
 
 int main() {
     int n,i;
     printf("Enter the number: \n");
     scanf("%d",&n);
-    printf("Multiplcation Table : \n");
+    printf("Multiplication Table : \n");
     for(int i=1; i<=10; i++){
         printf("%d * %d =" "%d \n",n,i,n*i);
         
@@ -17,7 +17,7 @@ int main() {
 Output:
 Enter the number: 
 5
-Multiplcation Table : 
+Multiplication Table : 
 5 * 1 =5 
 5 * 2 =10 
 5 * 3 =15 
