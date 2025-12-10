@@ -1,0 +1,28 @@
+// Arthimatic Operator
+#include <stdio.h>
+int a,b;
+
+int main()  {
+    printf("Enter the number a : ");
+    scanf("%d", &a);
+    
+    printf("Enter the number b : ");
+    scanf("%d", &b);
+    
+    printf("Addition : %d\n", a+b);
+    printf("Subtraction : %d\n", a-b);
+    printf("Multiplication : %d\n", a*b);
+    printf("Division : %d\n", a/b);
+    printf("Modulus : %d\n", a%b);
+
+    return 0;
+}
+
+Output:
+Enter the number a : 10
+Enter the number b : 20
+Addition : 30
+Subtraction : -10
+Multiplication : 200
+Division : 0
+Modulus : 10
