@@ -1,0 +1,22 @@
+// Printing The Name 5 Times
+#include <stdio.h>
+
+int main() {
+    int i=1;
+    
+    printf("Printing the name - 5 times :\n");
+    while(i<=5){
+        printf("JANAGIRAMAN V\n",i);
+        i++;
+    }
+    return 0;
+         
+}
+
+Output:
+Printing the name - 5 times :
+JANAGIRAMAN V
+JANAGIRAMAN V
+JANAGIRAMAN V
+JANAGIRAMAN V
+JANAGIRAMAN V
