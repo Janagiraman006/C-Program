@@ -1,0 +1,29 @@
+// Comparison Operator
+#include <stdio.h>
+int a,b;
+
+int main()  {
+    printf("Enter the number a : ");
+    scanf("%d", &a);
+    
+    printf("Enter the number b : ");
+    scanf("%d", &b);
+    
+    printf("Equals : %d\n", a==b);
+    printf("Not Equals : %d\n", a!=b);
+    printf("Greater : %d\n", a>b);
+    printf("Smaller : %d\n", a<b);
+    printf("Greater or Equals : %d\n", a>=b);
+    printf("Smaller or Equals : %d\n", a<=b);
+    return 0;
+}
+
+Output:
+Enter the number a : 10
+Enter the number b : 20
+Equals : 0
+Not Equals : 1
+Greater : 0
+Smaller : 1
+Greater or Equals : 0
+Smaller or Equals : 1
